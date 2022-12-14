@@ -3,6 +3,7 @@ body {
     line-height: 1.4;
 }
 
+/* PRODUCT */
 .product {
     border: 3px solid black;
 }
@@ -13,6 +14,7 @@ body {
     background-color: #f7f7f7;
 }
 
+/* PRODUCT INFORMATION */
 .price {
     font-size: x-large;
 }
@@ -41,6 +43,7 @@ body {
     background-color: black;
 }
 
+/* PRODUCT DETAILS */
 .product-details {
     text-transform: uppercase;
     font-size: medium;
@@ -50,6 +53,7 @@ body {
     list-style: square;
 }
 
+/* BUTTON */
 .cart-button {
     text-transform: uppercase;
     font-size: 20px;
