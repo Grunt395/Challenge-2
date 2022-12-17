@@ -13,6 +13,7 @@ body {
     border: 3px solid black;
     width: 825px;
     margin: 50px auto;
+    position: relative;
 }
 
 .product-title {
@@ -36,12 +37,25 @@ body {
     margin-bottom: 20px;
 }
 
-.more-info:link {
-    color: black;
+.sale {
+    background-color: red;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 7px 15px;
+    display: inline-block;
+    position: absolute;
+    top: -17px;
+    left: -34px;
 }
 
+.more-info:link,
 .more-info:visited {
     color: black;
+    margin-bottom: 30px;
+    display: inline-block;
 }
 
 .more-info:hover {
@@ -51,6 +65,36 @@ body {
 
 .more-info:active {
     background-color: black;
+}
+
+.color {
+    display: inline-block;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.color-blue {
+    background-color: blue;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-yellow {
+    background-color: yellow;
+}
+
+.color-green {
+    background-color: green;
+}
+
+.color-brown {
+    background-color: brown;
 }
 
 /* PRODUCT DETAILS */
